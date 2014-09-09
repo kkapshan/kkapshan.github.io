@@ -1,0 +1,11 @@
+body {
+	font-family: "Lucida Sands Unicode", "Lucida Grande", sans-serif;
+	border; 4px double #696969;
+	background-color: #FFEFD5;
+}
+
+.firstdiv {
+	background-color: #696969;
+	color: #4B0082;
+	width: #25%;
+}
