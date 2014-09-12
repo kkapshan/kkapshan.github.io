@@ -1,11 +1,39 @@
 body {
 	font-family: "Lucida Sands Unicode", "Lucida Grande", sans-serif;
 	border; 4px double #696969;
-	background-color: #FFEFD5;
+	background-color: #CCFFFF;
 }
 
 .firstdiv {
 	background-color: #696969;
 	color: #4B0082;
-	width: #25%;
+	width: #40%;}
+
+.seconddiv {
+	color: #660066 ;
+	font-family: "Times New Roman";
 }
+
+h2 {color: #FF3399;
+	font-family: "Times New Roman";}
+h3 {color: #FF6633;
+	font-family: "Arial";}
+h1 {text-align: center;
+	font-family: "Times New Roman";
+	color: #980000; }
+h4 {font-family: "Courier New";
+	color: #66CC33}
+
+.firstsection {
+	text-align: center;
+	color: #CC0033;
+	background-color: #660099;
+	font-family: cursive;
+	border: 2px solid red;
+	width: 33%;
+	}
+
+.secondsection {
+	text-align: right;
+	background-color: #696969;
+	}
