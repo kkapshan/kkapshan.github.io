@@ -2,7 +2,7 @@ body {
 	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
 	background: url(Images/lace.jpg);
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 .navtest {
@@ -50,14 +50,13 @@ nav {
 .blog {
 	width:60%;
     float:right;
-    padding:10px;
     line-height: 100%;
 }
 
 .blogtext {
 	background-color: #FDF5E6;
 	color: #778899;
-    padding:10px;
+	padding: 1px;
 }
 
 .blogheader {
