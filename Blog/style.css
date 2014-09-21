@@ -1,6 +1,29 @@
 body {
-	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-	background-color: #7FFFD4;
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	background: url(Images/lace.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.navtest {
+	text-align: center;
+    line-height:175%;
+    background-color:#eeeeee;
+    height:20%;
+    width:100%;
+    float: center;
+    padding:5px;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+.anav {
+	color: #800000;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#BA55D3;
 }
 
 nav {
@@ -16,7 +39,7 @@ nav {
 }
 
 .pageheader{
-	background-color:black;
+	background-color:#A9A9A9;
     color:white;
     text-align:center;
     line-height:100%;
@@ -45,4 +68,4 @@ nav {
     color:white;
     clear:both;
     text-align:center;
-   	padding:5px;}
+   	padding:3px;}
