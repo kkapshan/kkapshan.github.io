@@ -69,8 +69,9 @@ nav {
 }
 
 .footer {
-	background-color:black;
-    color:white;
+	background-color:#E6E6FA;
+    color:#778899;
     clear:both;
     text-align:center;
-   	padding:3px;}
+   	padding:3px;
+   	border-radius: 5px;}
