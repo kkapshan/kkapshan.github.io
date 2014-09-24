@@ -32,7 +32,7 @@ nav {
     height:20%;
     width:30%;
     float:left;
-    clear: right;
+    clear: left;
     padding:5px;
     border: 2px solid;
     border-radius: 25px;
