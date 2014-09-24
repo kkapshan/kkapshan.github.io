@@ -34,8 +34,8 @@ nav {
     float:left;
     clear: left;
     padding:5px;
-    border: 2px solid;
-    border-radius: 25px;
+    border: 1px solid;
+    border-radius: 10px;
 }
 
 .pageheader{
@@ -44,7 +44,7 @@ nav {
     text-align:center;
     line-height:100%;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 .blog {
