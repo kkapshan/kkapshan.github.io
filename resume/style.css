@@ -42,18 +42,54 @@ body {
     color:#8B008B;
 }
 
+.resumenav {
+    border-top: 2px solid #909090;
+    border-bottom: 2px solid #909090;
+    margin: 0em;
+}
+
+.resumenav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    text-align: center;
+}
+
+.resumenav ul li{
+    display: inline-block;
+    width: 10em;
+}
+
+.resumenav ul li a {
+    text-decoration: none;
+    margin: 0em;
+}
+
+.resumenav ul li a:hover {
+    color:#8B008B;
+}
+
 .blog {
     margin-left: auto;
     margin-right: auto;
     width: 70%;
     background-color: white;
     padding: 3em;
-    text-align: justify;
 }
 
-.blog h4 {
+.blog h2 {
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: .25em;
+}
+
+.blog h3, h4 {
     margin-top: 0em;
     margin-bottom: 0em;
+}
+
+.blog ul {
+    margin: 0.75em;
 }
 
 

@@ -16,6 +16,12 @@ body {
     border-radius: 25px;
 }
 
+.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .anav {
 	color: #483D8B;
 	text-decoration: none;
@@ -30,7 +36,7 @@ nav {
     line-height:175%;
     background-color:#eeeeee;
     height:20%;
-    width:30%;
+    width:35%;
     float:left;
     clear: left;
     padding:5px;
@@ -66,7 +72,7 @@ nav {
 	background-color: #FAF0E6;
 	padding: 5px;
     border-radius: 10px;
-    width: 20%;
+    width: auto;
     font-size: 150%;
 }
 
