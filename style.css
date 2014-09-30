@@ -6,11 +6,11 @@ body {
 }
 
 .pageheader{
-    border-bottom: 1.5px solid #383838  ;
     color:#606060 ;
     text-align:left;
     line-height:100%;
     text-indent: 3%;
+    text-transform: capitalize;
 }
 
 .pageheader h1 {
@@ -18,7 +18,8 @@ body {
 }
 
 .navigation {
-    border-bottom: 1.5px solid #383838 ;
+    border-bottom: 1.5px solid #383838;
+    border-top: 1.5px solid #383838;
     background-color:ghostwhite;
 }
 
