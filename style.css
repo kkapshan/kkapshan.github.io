@@ -1,12 +1,12 @@
 body {
-	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
-	background: ghostwhite;
+    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+    background: white;
     margin: 0;
     padding: 0;
 }
 
 .pageheader{
-	border-bottom: 2px solid #909090 ;
+    border-bottom: 2px solid #383838  ;
     color:#606060 ;
     text-align:left;
     line-height:100%;
@@ -18,8 +18,8 @@ body {
 }
 
 .navigation {
-    border-bottom: 2px solid #909090;
-    background-color:#b0e0e6;
+    border-bottom: 2px solid #383838 ;
+    background-color:ghostwhite;
 }
 
 .navigation ul {
@@ -54,9 +54,9 @@ body {
 
 
 .footer {
-	background-color: #585858;
+	background-color: #383838;
     color:white;
     clear:both;
     text-align:center;
-   	padding:3px;
+    padding:3px;
 }
