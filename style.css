@@ -1,11 +1,62 @@
 body {
-	font-family: "Lucida Sands Unicode", "Lucida Grande", sans-serif;
-	border; 4px double #696969;
-	background-color: #FFEFD5;
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	background: ghostwhite;
+    margin: 0;
+    padding: 0;
 }
 
-.firstdiv {
-	background-color: #696969;
-	color: #4B0082;
-	width: #25%;
+.pageheader{
+	border-bottom: 2px solid #909090 ;
+    color:#606060 ;
+    text-align:left;
+    line-height:100%;
+    text-indent: 3%;
+}
+
+.pageheader h1 {
+    color: black;
+}
+
+.navigation {
+    border-bottom: 2px solid #909090;
+    background-color:#b0e0e6;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    text-align: center;
+}
+
+.navigation ul li{
+    display: inline-block;
+    width: 10em;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    color:#8B008B;
+}
+
+.blog {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: white;
+    padding: 3em;
+    text-align: justify;
+}
+
+
+
+.footer {
+	background-color: #585858;
+    color:white;
+    clear:both;
+    text-align:center;
+   	padding:3px;
 }
