@@ -1,66 +1,85 @@
 body {
 	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
-	background: ghostwhite;
+	background: url(Images/lace.jpg);
+    background-repeat: repeat;
+}
+
+.navtest {
+	text-align: center;
+    line-height:175%;
+    background-color:#F8F8FF;
+    height:20%;
+    width:100%;
+    float: center;
+    padding:5px;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+.navlist {
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
+.anav {
+	color: #483D8B;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#8B008B;
+}
+
+nav {
+	text-align: center;
+    line-height:175%;
+    background-color:#eeeeee;
+    height:20%;
+    width:35%;
+    float:left;
+    clear: left;
+    padding:5px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
 .pageheader{
-	border-bottom: 2px solid #909090 ;
-    color:#606060 ;
+	background-color:#909090 ;
+    color:white;
     text-align:left;
     line-height:100%;
     text-indent: 3%;
+    padding: 5px;
+    border-radius: 3px;
 }
 
-.pageheader h1 {
-    color: black;
-}
-
-.navigation {
-    border-bottom: 2px solid #909090;
-    background-color:#b0e0e6;
-}
-
-.navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 2px;
-    text-align: center;
-}
-
-.navigation ul li{
-    display: inline-block;
-    width: 10em;
-}
-
-.navigation ul li a {
-    text-decoration: none;
-}
-
-.navigation ul li a:hover {
-    color:#8B008B;
-}
 
 .blog {
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    background-color: white;
-    padding: 3em;
-    text-align: justify;
+	width:60%;
+    float:right;
+    line-height: 100%;
 }
 
-.blog h4 {
-    margin-top: 0em;
-    margin-bottom: 0em;
+.blogtext {
+	background-color: #FDF5E6;
+	color: #778899;
+	padding: 1px;
 }
 
+.blogheader {
+	color: #F08080;
+	background-color: #FAF0E6;
+	padding: 5px;
+    border-radius: 10px;
+    width: auto;
+    font-size: 150%;
+}
 
 .footer {
-	background-color: #585858;
-    color:white;
+	background-color:#E6E6FA;
+    color:#778899;
     clear:both;
     text-align:center;
    	padding:3px;
-}
+   	border-radius: 5px;}
