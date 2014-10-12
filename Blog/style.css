@@ -1,74 +1,9 @@
-body {
-	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
-	background: white;
-    margin: 0;
-    padding: 0;
-}
-
-.pageheader{
-    color:#606060 ;
-    text-align:left;
-    line-height:100%;
-    text-indent: 3%;
-    text-transform: capitalize;
-}
-
-.pageheader h1 {
-    color: black;
-}
-
-.navigation {
-    border-bottom: 1.5px solid #383838;
-    border-top: 1.5px solid #383838;
-    background-color:ghostwhite;
-}
-
-.navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 2px;
-    text-align: center;
-}
-
-.navigation ul li{
-    display: inline-block;
-    width: 10em;
-}
-
-.navigation ul li a {
-    text-decoration: none;
-}
-
-.navigation ul li a:hover {
-    color:#8B008B;
-}
-
-.blog {
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    background-color: white;
-    padding: 3em;
-    text-align: justify;
-}
-
-#photoleft {
-    float: left;
-    margin-right: 1em;
-    margin-bottom: 1em;
-}
-
-#photoright {
-    float: right;
-    margin-left: 1em;
-    margin-bottom: 1em;
-}
 
 
-.footer {
-	background-color: #383838;
-    color:white;
-    clear:both;
-    text-align:center;
-   	padding:3px;
+img {
+    opacity: 1.0;
+    width: 100%;
+    z-index: 1;
+    display: block;
+margin-top: none;
 }
