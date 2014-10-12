@@ -2,19 +2,16 @@ body {
     font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
     background: white;
     margin: 0;
-    padding: 0;
-}
-
-.pageheader{
-    color:#606060 ;
-    text-align:left;
-    line-height:100%;
-    text-indent: 3%;
-    text-transform: capitalize;
-}
-
-.pageheader h1 {
     color: black;
+}
+
+
+img {
+    opacity: 1;
+    width: 100%;
+    z-index: 1;
+    display: block;
+    margin-top: none;
 }
 
 .navigation {
