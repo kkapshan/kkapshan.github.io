@@ -1,15 +1,9 @@
 
 
 img {
-    opacity: 0.4;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
+    opacity: 1.0;
     width: 100%;
     z-index: 1;
     display: block;
 margin-top: none;
-}
-
-img:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100); /* For IE8 and earlier */
 }
