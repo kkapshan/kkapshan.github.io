@@ -22,6 +22,7 @@ nav {
 .nav li{
     display:inline-block;
     vertical-align: top;
+    font-size: 1.5em;
 }
 
 .dropdown-menu{
@@ -89,8 +90,12 @@ nav {
         display:none;
     }
 
+    .nav li{
+    font-size: 1em;
+    }
+
     .imagecontainer span h1 {
-    padding: 6px 2px;
+    padding: 6px 4px;
     font-size: 1.5em;
     }
 }
