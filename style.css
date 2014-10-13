@@ -26,8 +26,8 @@ nav {
 .nav li{
     display:inline-block;
     vertical-align: top;
-    font-size: 1.25em;
-}
+    font-size: 1.5em;
+    }
 
 .dropdown-menu{
     right:0;
@@ -83,14 +83,15 @@ nav {
     width: 14em;
 }
 
-@media (max-width: 7750px){
+@media (max-width: 780px){
     .subtitle-hide {
         font-size: .75em;
     }
 
-     .nav li{
-        font-size: 1em;
+     .nav li {
+    font-size: 1em;
     }
+
 }
 
 @media (max-width: 650px){
