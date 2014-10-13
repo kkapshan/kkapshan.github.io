@@ -88,11 +88,6 @@ width: 14em;
 display:inline-block;
 font-size: .75em;
 }
-.dropdown-menu{
-right:0;
-width:100%;
-padding-top:0;
-}
 }
  
 @media (min-width: 768px){
@@ -108,9 +103,8 @@ font-size: 2em;
 display:inline-block;
 font-size: 1.0em;
 }
-
 .dropdown-menu{
-left:0;
+right:0;
 width:25%;
 padding-top:0;
 }
