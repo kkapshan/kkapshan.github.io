@@ -6,6 +6,10 @@ nav {
     height: 60px;
 }
 
+.name {
+    color: #000066;
+}
+
 .navbar-header{
     display: inline-block;
 }
