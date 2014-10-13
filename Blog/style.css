@@ -83,19 +83,25 @@ width: 12em;
 width: 14em;
 }
 
-.blog {
+.blogcontainer {
 	margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+    padding-bottom: 5%;
     width: 80%;
 }
 
+.blog{
+width: 100%;
+display: block;
+margin: 0;
+}
 
 @media (min-width: 650px){
 .subtitle-hide {
 display:inline-block;
 font-size: .75em;
 	}
-.blog {
+.blogcontainer {
 	width: 80%;
 	}
 }
@@ -112,7 +118,7 @@ font-size: 2em;
 display:inline-block;
 font-size: 1em;
 }
-.blog {
+.blogcontainer {
 	width: calc(100%*(2/3));
 }
 }
