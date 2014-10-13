@@ -83,7 +83,7 @@ nav {
     width: 14em;
 }
 
-@media (max-width: 760px){
+@media (max-width: 7750px){
     .subtitle-hide {
         font-size: .75em;
     }
