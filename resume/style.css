@@ -11,44 +11,7 @@ img {
     width: 100%;
     z-index: 1;
     display: block;
-margin-top: none;
-}
-
-
-
-
-img {
-    opacity: 1;
-    width: 100%;
-    z-index: 1;
-    display: block;
     margin-top: none;
-}
-
-.navigation {
-    border-bottom: 1.5px solid #383838;
-    border-top: 1.5px solid #383838;
-    background-color:ghostwhite;
-}
-
-.navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 2px;
-    text-align: center;
-}
-
-.navigation ul li{
-    display: inline-block;
-    width: 10em;
-}
-
-.navigation ul li a {
-    text-decoration: none;
-}
-
-.navigation ul li a:hover {
-    color:#8B008B;
 }
 
 .resumenav {
@@ -99,13 +62,3 @@ img {
 .blog ul {
     margin: 0.75em;
 }
-
-
-.footer {
-    background-color: #383838;
-    color:white;
-    clear:both;
-    text-align:center;
-    padding:3px;
-}
-
