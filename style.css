@@ -79,7 +79,7 @@ width: 12em;
 width: 14em;
 }
  
-@media (min-width: 650px){
+@media (min-width: 675px){
 .subtitle-hide {
 display:inline-block;
 font-size: .75em;
