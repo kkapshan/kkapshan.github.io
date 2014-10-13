@@ -113,6 +113,15 @@ margin: 0;
     overflow: hidden;
 }
 
+@media (min-width: 420px){
+.blogpiccontainer {
+	float: left;
+	/*margin-right: 3%;
+	margin-bottom: 3%;*/
+	margin-top: 0%;
+	margin-left: 0%;
+}
+}
 
 @media (min-width: 650px){
 .subtitle-hide {
@@ -122,18 +131,11 @@ font-size: .75em;
 .blogcontainer {
 	width: 80%;
 	}
-.blogpiccontainer {
+/*.blogpiccontainer {
 	float: left;
 	margin-right: 3%;
 	margin-bottom: 3%;
-}	
-}
-
-@media (min-width: 420px){
-.blogpiccontainer {
-	float: left;
-	margin: 3%;
-}
+}	*/
 }
  
 @media (min-width: 768px){
@@ -151,9 +153,9 @@ font-size: 1em;
 .blogcontainer {
 	width: calc(100%*(2/3));
 }
-.blogpiccontainer {
+./*blogpiccontainer {
 	float: left;
 	margin-right: 3%;
 	margin-bottom: 3%;
-}	
+}	*/
 }
