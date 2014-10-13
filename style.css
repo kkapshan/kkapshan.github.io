@@ -68,7 +68,7 @@ display: inline-block;
 }
  
 .imagecontainer span h1 {
-background: rgba(255, 255, 255, .75);
+background: rgba(255, 255, 255, .6);
 padding: 6px 4px;
 text-align: right;
 font-size: 1.5em;
