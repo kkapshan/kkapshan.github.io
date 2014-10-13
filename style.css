@@ -91,7 +91,6 @@ font-size: .75em;
 }
  
 @media (min-width: 768px){
- 
 .nav .dropdown-toggle{
 padding:0;
 }
@@ -102,10 +101,5 @@ font-size: 2em;
 .subtitle-hide {
 display:inline-block;
 font-size: 1.0em;
-}
-.dropdown-menu{
-right:0;
-width:25%;
-padding-top:0;
 }
 }
