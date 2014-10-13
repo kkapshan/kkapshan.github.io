@@ -33,11 +33,11 @@ color: #2f4f4f;
 display:none;
 }
  
-/*.dropdown-menu{
+.dropdown-menu{
 right:0;
 width:100%;
 padding-top:0;
-}*/
+}
  
 .dropdown-menu li{
 display:block;
