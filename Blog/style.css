@@ -96,6 +96,14 @@ display: block;
 margin: 0;
 }
 
+.blog div h2 {
+	padding: 0px;
+}
+
+.blog div h3 {
+	padding: 0px;
+}
+
 @media (min-width: 650px){
 .subtitle-hide {
 display:inline-block;
