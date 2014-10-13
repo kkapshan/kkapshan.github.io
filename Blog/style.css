@@ -1,12 +1,105 @@
 body{
-    font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+ 
+nav {
+height: 60px;
 }
 
-img {
-    opacity: 1.0;
-    width: 100%;
-    z-index: 1;
-    display: block;
-margin-top: none;
+.name {
+    color: #242424;
+}
+ 
+.navbar-header{
+display: inline-block;
+}
+ 
+.nav{
+display: inline-block;
+float:right;
+}
+ 
+.nav li{
+display:inline-block;
+vertical-align: top;
+font-size: 1.5em;
 }
 
+.nav li a{
+color: #2f4f4f;
+}
+ 
+.subtitle-hide {
+display:none;
+}
+ 
+.dropdown-menu{
+right:0;
+width:100%;
+padding-top:0;
+}
+ 
+.dropdown-menu li{
+display:block;
+}
+ 
+.navbar-toggle {
+display: block !important;
+}
+
+.imagecontainer {
+margin-top: 60px;
+position: relative;
+display: inline-block;
+width: 100%;
+}
+ 
+.imagecontainer img{
+opacity: 1.0;
+width: 100%;
+display: block;
+margin-top: 0;
+}
+ 
+.imagecontainer span {
+position: absolute;
+bottom: 0;
+display: inline-block;
+}
+ 
+.imagecontainer span h1 {
+background: rgba(255, 255, 255, .6);
+padding: 6px 4px;
+text-align: right;
+font-size: 1.5em;
+}
+.imagecontainer span h1:nth-child(1){
+width: 10em;
+}
+.imagecontainer span h1:nth-child(2){
+width: 12em;
+}
+.imagecontainer span h1:nth-child(3){
+width: 14em;
+}
+ 
+@media (min-width: 650px){
+.subtitle-hide {
+display:inline-block;
+font-size: .75em;
+}
+}
+ 
+@media (min-width: 768px){
+.nav .dropdown-toggle{
+padding:0;
+}
+.imagecontainer span h1 {
+padding: 6px;
+font-size: 2em;
+}
+.subtitle-hide {
+display:inline-block;
+font-size: 1em;
+}
+}
