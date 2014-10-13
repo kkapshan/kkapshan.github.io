@@ -106,17 +106,13 @@ margin: 0;
 }
 
 .blogpiccontainer {
-	float: left;
-	width: 200px;
+	float: none;
+	margin: 3%;
+	width: 300px;
     height: 200px;
-	margin-right: 3%;
-	margin-bottom: 3%;
-	overflow: hidden;
+    overflow: hidden;
 }
 
-/*.blogpic{ 
-	overflow: hidden;
-}*/
 
 @media (min-width: 650px){
 .subtitle-hide {
@@ -126,6 +122,11 @@ font-size: .75em;
 .blogcontainer {
 	width: 80%;
 	}
+.blogpiccontainer {
+	float: left;
+	margin-right: 3%;
+	margin-bottom: 3%;
+}	
 }
  
 @media (min-width: 768px){
@@ -143,4 +144,9 @@ font-size: 1em;
 .blogcontainer {
 	width: calc(100%*(2/3));
 }
+.blogpiccontainer {
+	float: left;
+	margin-right: 3%;
+	margin-bottom: 3%;
+}	
 }
