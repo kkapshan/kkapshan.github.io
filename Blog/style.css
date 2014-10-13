@@ -106,7 +106,8 @@ margin: 0;
 }
 
 .blogpiccontainer {
-	float: none;
+	margin-left: auto;
+    margin-right: auto;
 	width: 250px;
     height: 200px;
     margin-bottom: 2%;
