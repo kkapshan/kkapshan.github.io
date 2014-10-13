@@ -83,21 +83,21 @@ nav {
     width: 14em;
 }
 
-/*@media (max-width: 800px){
+@media (max-width: 800px){
     .subtitle-hide {
-        font-size: .75em;
+        display: none;
     }
 
-     .nav li {
+     /*.nav li {
     font-size: 1em;
     }
-
-}*/
+*/
+}
 
 @media (max-width: 650px){
-    .subtitle-hide {
+   /* .subtitle-hide {
         display:none;
-    }
+    }*/
 
     .imagecontainer span h1 {
     padding: 6px 4px;
