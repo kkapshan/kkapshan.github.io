@@ -96,12 +96,13 @@ display: block;
 margin: 0;
 }
 
-.blog div h2 {
-	padding: 0px;
+.blog h2 {
+	margin-bottom: 0px;
+	color: #242424;
 }
 
-.blog div h3 {
-	padding: 0px;
+.blog h3 {
+	margin-top: 1%;
 }
 
 @media (min-width: 650px){
