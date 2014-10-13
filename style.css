@@ -33,11 +33,11 @@ color: #2f4f4f;
 display:none;
 }
  
-.dropdown-menu{
+/*.dropdown-menu{
 right:0;
 width:100%;
 padding-top:0;
-}
+}*/
  
 .dropdown-menu li{
 display:block;
@@ -88,6 +88,11 @@ width: 14em;
 display:inline-block;
 font-size: .75em;
 }
+.dropdown-menu{
+right:0;
+width:100%;
+padding-top:0;
+}
 }
  
 @media (min-width: 768px){
@@ -102,5 +107,11 @@ font-size: 2em;
 .subtitle-hide {
 display:inline-block;
 font-size: 1.0em;
+}
+
+.dropdown-menu{
+right:0;
+width:25%;
+padding-top:0;
 }
 }
