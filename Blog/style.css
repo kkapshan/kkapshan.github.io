@@ -82,12 +82,22 @@ width: 12em;
 .imagecontainer span h1:nth-child(3){
 width: 14em;
 }
- 
+
+.blog {
+	margin-left: auto;
+    margin-right: auto;
+}
+
+
 @media (min-width: 650px){
 .subtitle-hide {
 display:inline-block;
 font-size: .75em;
 }
+.blog {
+	width: 90%;
+}
+
 }
  
 @media (min-width: 768px){
@@ -101,5 +111,8 @@ font-size: 2em;
 .subtitle-hide {
 display:inline-block;
 font-size: 1em;
+}
+.blog {
+	width: 60%;
 }
 }
