@@ -1,32 +1,93 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>About Me</title>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kelly Kapshandy About Me</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css"/>
-</head>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
-<div class='pageheader'>
-    <h1>Let's make the best of this situation</h1>
-    <h2>Before I finally go insane</h2>
-</div>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-<nav class='navigation'>
-<ul>
-    <li> <a href="../index.html" target="_blank">Home</a> </li>
-    <li> <a href="../Blog" target="_blank">Blog</a> </li>
-    <li> <a href="../About" target="_blank">About Me</a> </li>
-    <li> <a href="../Contact" target="_blank">Contact</a> </li>
-</ul>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49851056-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  
+  </head>
+  <body>
+  
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      
+      <a class="navbar-brand" href="#"><span class="name">Kelly Kapshandy</span><span class="subtitle-hide"> // Marketing Guru - Innovation Enthusiast - News Junkie</span></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+
+ 
+      <ul class="nav">
+        <li><a href="../index.html" target="_blank">Home</a></li>
+        <li class="dropdown">
+        </li>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="../About" target="_blank">About Me</a></li>
+            <li><a href="../resume" target="_blank">Resume</a></li>
+            <li><a href="../Blog" target="_blank">Blog</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+      </ul>
+  </div><!-- /.container-fluid -->
 </nav>
 
-<div class='blog'>
-    <h3>About Me</h3>
-    <p>Test</p>
+<div class="imagecontainer">
+  <img src="images/traversecity.jpg"/>
+  <span><h1>News Junkie</h1><h1>Marketing Guru</h1> <h1>Innovation Enthusiast</h1> </span>
 </div>
 
-<div class='footer'>
-Created by Kelly Kapshandy
+<div class="blogcontainer">
+<div class="blog">
+  <h2>header header header</h2>
+  <h3>second header second header</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices mauris metus. Phasellus quis ipsum eget leo ullamcorper convallis nec pellentesque lacus. Phasellus sed aliquam lorem. Nulla eleifend consequat elementum. Fusce felis nisl, imperdiet non velit non, placerat dapibus sapien. Praesent metus felis, cursus sit amet fringilla quis, porttitor nec metus. Aenean vitae fermentum augue. Etiam non arcu nec massa sollicitudin vehicula volutpat ut augue.
+
+  <p>Maecenas scelerisque eros vel turpis interdum luctus. Donec libero neque, mollis ut nisi quis, pellentesque semper eros. Aliquam sed dolor eu lorem fermentum blandit cursus ut nulla. Curabitur non cursus nisl. Morbi facilisis augue vitae lobortis bibendum. Integer aliquam condimentum mauris, quis malesuada lectus. Integer enim justo, mollis et tortor a, interdum vulputate ex. Aliquam erat volutpat. In hac habitasse platea dictumst. Aliquam vel enim et ante pharetra pharetra vitae sed nibh. Etiam a bibendum tellus, vitae malesuada lacus. Praesent ultricies sem felis, vel ultricies lectus lacinia in. Aliquam pretium est sapien, eget aliquet erat mattis ac.</p>
+
 </div>
 
-</body>
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
